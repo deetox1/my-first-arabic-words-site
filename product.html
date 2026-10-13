@@ -24,7 +24,7 @@
 <span class="pill">Digital printable · for families worldwide</span>
 <h1 class="title">A little Arabic.<br><em>A big beginning.</em></h1>
 <p class="lead">A welcoming Arabic–French activity bundle for families, homeschoolers and educators introducing first Arabic words to children ages 3–6. Print at home, learn together, and revisit the words at your own pace.</p>
-<div class="price"><strong>US$5.99</strong><span>planned one-time price · no subscription</span></div>
+<div class="price"><strong>US$5.99</strong><span data-price-status>planned one-time price · no subscription</span></div>
 <div class="actions"><a class="btn primary" href="#" data-store-link hidden>Buy the bundle — US$5.99 ↗</a><a class="btn secondary" href="https://github.com/deetox1/my-first-arabic-words-site/releases/download/free-sample-2026-10/Free_Arabic_Words_Sample.pdf" target="_blank" rel="noopener noreferrer">Download the free sample ↗</a></div>
 <p class="status" data-store-status>Checkout is being connected. No payment is accepted on this website yet. Planned one-time price: US$5.99.</p>
 <p class="small">Digital files only. No physical item will be shipped. The complete bundle is prepared as A4 PDFs.</p>
@@ -48,8 +48,8 @@
 <details><summary>Is this a physical book?</summary><p>No. It is a digital printable product. No physical item will be shipped.</p></details>
 <details><summary>What languages are included?</summary><p>The workbook focuses on Arabic letters and first words with French meanings. Flashcards include English reference words alongside Arabic and French.</p></details>
 <details><summary>Does it teach every form of Arabic letters?</summary><p>The workbook begins with isolated Arabic letters. Letter shapes can change depending on their position in a word, so this is an introductory familiarity resource rather than a complete Arabic curriculum.</p></details>
-<details><summary>How do I receive the paid files?</summary><p>Once checkout is enabled, the selected storefront will deliver the downloadable files after a successful order. Purchases are not being accepted yet on this website.</p></details>
-<details><summary>Can customers outside Algeria buy it?</summary><p>The product is designed for international customers, but checkout will only be enabled after the seller has a payment provider that accepts their real account and country. No customer payment is accepted while setup is pending.</p></details>
+<details><summary>How do I receive the paid files?</summary><p data-store-delivery-status>Checkout is not active yet. Once it is enabled, the selected storefront will deliver the downloadable files after successful payment.</p></details>
+<details><summary>Can customers outside Algeria buy it?</summary><p>The product is designed for international customers. Actual payment options depend on the country and methods supported by the configured storefront.</p></details>
 </div></section>
 </main>
 <footer><div class="wrap"><nav class="footerlinks"><a href="index.html">Home</a><a href="sample.html">Sample information</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms of use</a><a href="support.html">Contact &amp; support</a></nav><p class="small" data-store-status>Checkout is being connected. No payment is accepted on this website yet. Planned one-time price: US$5.99.</p><p class="small">© 2026 My First Arabic Words</p></div></footer>
@@ -62,6 +62,8 @@
  var ready="Checkout opens on the official "+String(cfg.provider||"store")+" product page. After confirmed payment, the store handles access to the downloadable files.";
  var pending="Checkout is being connected. No payment is accepted on this website yet. Planned one-time price: US$5.99.";
  document.querySelectorAll("[data-store-status]").forEach(function(el){el.textContent=href?ready:pending;});
+ document.querySelectorAll("[data-price-status]").forEach(function(el){el.textContent=href?"one-time digital purchase · no subscription":"planned one-time price · no subscription";});
+ document.querySelectorAll("[data-store-delivery-status]").forEach(function(el){el.textContent=href?"After successful payment, the configured storefront delivers the paid files automatically. This landing page does not host the paid downloads.":"Checkout is not active yet. Once it is enabled, the selected storefront will deliver the downloadable files after successful payment.";});
 })();
 </script>
 </body></html>
