@@ -1,14 +1,22 @@
 # My First Arabic Words — landing page
 
-A responsive, self-contained landing page for the existing printable Arabic–French learning bundle.
+A responsive international landing page for the existing Arabic–French printable learning bundle.
 
 ## Pages
-- `index.html` — product overview, audience, bundle contents and FAQs.
-- `privacy.html` — informational-site privacy statement.
-- `terms.html` — terms of use.
+- `index.html` — international home page, audience, product overview and FAQs.
+- `product.html` — full product listing with real bundle contents and current checkout status.
+- `sample.html` — sample information page.
+- `privacy.html`, `terms.html`, `support.html` — existing policy and support pages.
+- `assets/store-product-image.webp` — existing product artwork.
+- `store-config.js` — safe public switch for the verified external checkout URL.
 
-## Launch status
-This landing page does not take payments and clearly states checkout is not live. The suggested price is US$5.99, not a revenue forecast. Do not advertise a live purchase flow until Lemon Squeezy store approval, payout method acceptance, product-file setup, and checkout testing are complete.
+## Checkout activation
+Paid checkout is intentionally inactive until the seller has an eligible payment account, uploads the customer bundle to a storefront that delivers digital files after payment, confirms its payout method, and tests that storefront's buyer journey. Then put the exact published product URL in `store-config.js` and set `provider` to its actual name. This file contains no payment credentials.
 
-## Publish
-GitHub Pages serves the root of the `main` branch over HTTPS once enabled.
+The planned one-time price is US$5.99. This is not a promise that sales or withdrawals are active.
+
+## Sample asset
+The 3-page sample is served from the existing GitHub Release; it is distinct from the paid 32-page workbook and 28-card flashcard bundle. Never upload the paid customer ZIP into this public repository.
+
+## International positioning
+The page targets families, homeschoolers and educators worldwide who want beginner Arabic resources, including households that benefit from French translations. Digital files are formatted for A4 printing.
