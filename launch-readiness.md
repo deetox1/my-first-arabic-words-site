@@ -1,33 +1,38 @@
 # Launch readiness — My First Arabic Words
 
-Updated: 2026-10-13 UTC. This reconciles the existing launch; it does not restart or replace the product.
+Updated 13 October 2026. This continues the existing product and launch; it is not a restart.
 
-## Verified source and deployment history
-- Public repository: https://github.com/deetox1/my-first-arabic-words-site
-- Deployed site: https://deetox1.github.io/my-first-arabic-words-site/
-- Canonical seller-provided product listing: https://ko-fi.com/s/19b1223756
-- The existing source includes Pinterest's `p:domain_verify` meta tag. Pinterest profile resources now explicitly report `deetox1.github.io/my-first-arabic-words-site` as `verified` at 2026-10-13 15:09:56 UTC; no additional verification-tag change was necessary.
-- Existing launch validation previously confirmed the customer ZIP contained a 32-page workbook PDF, a 7-page flashcards PDF with 28 cards, and printing notes; the separate free preview is a 3-page PDF. ZIP integrity passed in prior validation.
-- Existing Pages workflows previously succeeded for commits `1dd7a0d9aee9ab4905e611196deb021bc0e8d244` and `d50efa772cea222e06f935196879b741e9b63ccf`.
-- This round made two narrow copy fixes to avoid presenting an unverified US$5.99 price as current and to remove a claim that Ko-fi automatically delivers the paid files. Commits: https://github.com/deetox1/my-first-arabic-words-site/commit/85eb9e0a38aa912a62dfa61e806eb88ad3327413 and https://github.com/deetox1/my-first-arabic-words-site/commit/2f4124849cf2955c39b4ea645cdc686c9c514fa7.
+## Existing assets and live paths
+- Repository: https://github.com/deetox1/my-first-arabic-words-site
+- Live site: https://deetox1.github.io/my-first-arabic-words-site/
+- Product details: https://deetox1.github.io/my-first-arabic-words-site/product.html
+- Free sample: https://deetox1.github.io/my-first-arabic-words-site/sample.html
+- Seller-provided Ko-fi listing: https://ko-fi.com/s/19b1223756
+- Prior product QA found the customer ZIP contains a 32-page workbook PDF, a 7-page flashcards PDF with 28 cards, and printing notes; the free sample is a separate 3-page PDF. ZIP integrity passed. Keep the paid ZIP out of the public repository.
 
-## Pinterest — verified and completed
-- Intended account: `@simad9063`; profile ID `1149684748533737244`; account type `BUSINESS`; business name `My First Arabic Words`; connection ACTIVE.
-- Website claim: Pinterest API status `verified` as above.
-- The previous board ID `1146236611351740178` is not accessible from this business account (API 404) and was not assumed to transfer from `@forsaform`.
-- Created the intended PUBLIC board on `@simad9063`: `Arabic Learning at Home | Printables`, ID `1149684679816462776`. Description matches the saved launch kit. Board currently has zero Pins.
-- Existing Library contains six product-specific `pinterest-pin*.png` creatives and `My_First_Arabic_Words_Launch_Kit_Updated_2026-10-13.zip`; these were preserved.
-- Production Pin creation is BLOCKED by Pinterest app Trial access; the production API error states Standard access is required. A prior attempt also rejected the site's SVG artwork as a broken image. No Pin has been published and no Pin URL exists. Do not publish to `@forsaform`.
+## Verified in this round
+- Latest GitHub Pages workflow 38421363291 succeeded for commit 83764582e34fd2261d18b6913b7a81f9befc2a5f: https://github.com/deetox1/my-first-arabic-words-site/actions/runs/38421363291
+- Remote live HTTP checks returned 200 for homepage, product.html, sample.html and store-config.js. Homepage and product page link to the seller's Ko-fi listing; the free sample route remains separate. Responsive CSS breakpoints and product detail copy are present. Automated Ko-fi fetch returned HTTP 403 anti-bot challenge, not evidence of a listing defect. Browser-rendered mobile screenshot/tap testing was not available.
+- Pinterest Business @simad9063, profile ID 1149684748533737244, is connected. Pinterest's profile resources reported the website claim verified at 2026-10-13T15:09:56Z.
+- Public board Arabic Learning at Home | Printables belongs to simad9063, ID 1149684679816462776, privacy PUBLIC. Latest API reads confirm zero Pins. Do not publish to @forsaform.
+- Six existing authentic Pinterest creatives were visually reviewed: 1000×1500 portrait PNGs, roughly 110–157 KB, readable and using genuine workbook/flashcard previews. Pin 3 is inside My_First_Arabic_Words_Launch_Kit_Updated_2026-10-13.zip; the other five variants are in the Library. Preserve these assets.
+- Seller confirmed the current Ko-fi price is correct, the paid ZIP was attached when creating the product, and checkout offers credit-card and PayPal options that appear to work. No real purchase was made. Post-payment download delivery and seller payout/withdrawal remain untested. Do not ask the seller to repeat these checks or make a charge just to test.
 
-## Purchase path — still needs seller-side verification
-- Current public Ko-fi listing fetch and live website fetch could not be independently verified in this session. The listing's actual price, cover/previews, paid ZIP attachment, checkout/payment methods and post-payment download delivery remain unverified.
-- Site copy now points buyers to Ko-fi to check current price/payment options and tells them to confirm the complete bundle is attached; the landing page does not process payments or host paid files.
-- Do not claim the intended US$5.99 is the current live price, that automatic delivery works, or that a sale/payment/payout occurred.
-- No ads were purchased and no audience metrics were fabricated.
+## Remaining blocker: Pinterest production publishing
+The connected Pinterest API application has Trial access. The previous production create-Pin attempt was rejected and the storefront SVG was also rejected as a broken image. Do not retry production publishing until Standard access is approved. The authorized integration exposes no control to change this access tier.
 
-## Exact remaining actions
-1. Request/enable Pinterest Standard production API access. After it is active, publish gradually using the existing PNG/JPEG creatives, link purchase-intent Pins directly to the canonical Ko-fi listing, and verify every returned Pin ID/URL and board placement.
-2. In a normal browser, verify the live Ko-fi listing title, current price, cover/previews, paid ZIP and post-payment download delivery. Stop at the last pre-payment step; do not submit a real charge as a test.
-3. Confirm supported international payment methods and payout eligibility/limitations in the seller's own payment-provider accounts. No payout configuration or commercial-payment eligibility is claimed as verified.
-4. Confirm the latest GitHub Pages deployment for commit `2f4124849cf2955c39b4ea645cdc686c9c514fa7` completes successfully, then inspect the live mobile page and CTA after propagation.
-5. Review actual outbound clicks and saves after 2–4 weeks; the next meaningful milestone is a confirmed purchase, not impressions alone.
+Manual action: sign in at https://developers.pinterest.com/ → My apps → select the existing app → request Standard access. Provide a demo video showing the OAuth authorization flow and live Pinterest integration, submit the request, and wait for Pinterest's decision. Official guide: https://developers.pinterest.com/docs/key-concepts/access-tiers/ . After approval, use existing PNG bytes or a public PNG URL, not the rejected SVG; publish one Pin at a time and verify its ID, public URL, board placement and destination.
+
+## Commercial payment receipt and withdrawal in Algeria
+- Ko-fi is a direct-payment service: funds go to connected PayPal or Stripe, not a Ko-fi balance. Official guidance: https://help.ko-fi.com/hc/en-us/articles/115003980093-How-do-I-get-paid
+- Algeria is not listed among Stripe's supported business countries: https://stripe.com/global. Do not plan on a standard Stripe account based in Algeria.
+- PayPal Algeria's official receiving help says the account must confirm its email and a Visa credit card or US bank account; it describes transfers to an eligible Visa card or US bank account. The actual eligible withdrawal destinations are account-specific; check the seller's own PayPal Wallet. Official page: https://www.paypal.com/dz/cshelp/article/comment-recevoir-de-largent-avec-paypal%C2%A0-help667?locale.x=fr_DZ
+- Do not rely on a card/account owned by another person unless PayPal and the issuer explicitly confirm the arrangement is allowed. No financial account was connected and no incoming commercial payment or withdrawal has been tested.
+
+## Next actions
+1. Request Standard access for the existing Pinterest app with the required compliant demo video; wait for approval.
+2. Publish the six existing creatives gradually (about 3–4 distinct Pins weekly), using direct Ko-fi links for purchase-intent traffic. Verify every Pin before continuing.
+3. In the seller's own PayPal account, verify commercial receiving status, limitations, any required identity/business verification, and eligible withdrawal destinations.
+4. Review real saves/outbound clicks after 2–4 weeks. The milestone is a confirmed purchase, not impressions alone.
+
+No Pin has been published; no sale, payment, payout or withdrawal is claimed. No ads were bought and no metrics were fabricated.
