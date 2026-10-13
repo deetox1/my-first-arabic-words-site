@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="500" viewBox="0 0 640 500" role="img" aria-labelledby="title desc">
+  <title id="title">My First Arabic Words workbook and flashcards</title>
+  <desc id="desc">A warm green and cream illustration of a printable Arabic workbook beside colorful word cards.</desc>
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="150%" height="160%">
+      <feDropShadow dx="0" dy="13" stdDeviation="13" flood-color="#24382d" flood-opacity=".16"/>
+    </filter>
+    <linearGradient id="backdrop" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eef2e8"/>
+      <stop offset="1" stop-color="#dce8d4"/>
+    </linearGradient>
+    <linearGradient id="cover" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fffdf8"/>
+      <stop offset="1" stop-color="#f5f2e8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="500" rx="34" fill="url(#backdrop)"/>
+  <circle cx="536" cy="90" r="50" fill="#f5bc69" opacity=".92"/>
+  <circle cx="86" cy="394" r="64" fill="#dce9e6"/>
+  <path d="M0 420c106-54 202-15 292-35s224-88 348-13v128H0z" fill="#cbdcc8" opacity=".62"/>
+  <g fill="#fffdf8" opacity=".8">
+    <circle cx="82" cy="120" r="5"/><circle cx="105" cy="144" r="3"/>
+    <circle cx="530" cy="205" r="4"/><circle cx="568" cy="230" r="3"/>
+  </g>
+  <path d="m499 282 9 18 20 3-15 13 4 20-18-10-18 10 4-20-15-13 20-3z" fill="#f5bc69"/>
+  <path d="m97 241 6 13 14 2-10 9 3 14-13-7-12 7 2-14-10-9 14-2z" fill="#789574"/>
+
+  <g transform="rotate(-5 252 246)" filter="url(#shadow)">
+    <rect x="104" y="52" width="310" height="396" rx="18" fill="#fffdf8"/>
+    <rect x="116" y="64" width="286" height="372" rx="13" fill="url(#cover)" stroke="#e5e3d9"/>
+    <rect x="138" y="86" width="40" height="40" rx="12" fill="#24382d"/>
+    <text x="158" y="115" text-anchor="middle" fill="#f5bc69" font-family="Georgia,serif" font-size="26">ع</text>
+    <text x="190" y="103" fill="#24382d" font-family="Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="1.5">MY FIRST</text>
+    <text x="190" y="119" fill="#24382d" font-family="Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="1.2">ARABIC WORDS</text>
+    <path d="M138 144h242" stroke="#dfe2d7"/>
+    <text x="139" y="181" fill="#24382d" font-family="Georgia,serif" font-size="27">Little words.</text>
+    <text x="139" y="214" fill="#65876b" font-family="Georgia,serif" font-size="27">Big beginnings.</text>
+    <rect x="139" y="232" width="240" height="143" rx="15" fill="#e9efe5"/>
+    <circle cx="337" cy="263" r="17" fill="#f5bc69"/>
+    <path d="M151 345c34-30 65-21 96-8s74 12 120-14v39H151z" fill="#d3e2cf"/>
+    <path d="M153 337c26-20 47-17 68-7 25 12 48 16 68 5" fill="none" stroke="#8daa86" stroke-width="3" stroke-linecap="round"/>
+    <text x="258" y="317" text-anchor="middle" fill="#24382d" font-family="Tahoma,Arial,sans-serif" font-size="72">ع</text>
+    <text x="258" y="361" text-anchor="middle" fill="#617064" font-family="Arial,sans-serif" font-size="9" font-weight="700" letter-spacing="1.1">LETTERS · WORDS · ACTIVITIES</text>
+    <text x="139" y="408" fill="#617064" font-family="Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="1.4">ARABIC · FRANÇAIS · AGES 3–6</text>
+  </g>
+
+  <g transform="rotate(6 483 181)" filter="url(#shadow)">
+    <rect x="393" y="111" width="190" height="153" rx="15" fill="#fffdf8"/>
+    <rect x="407" y="125" width="162" height="125" rx="11" fill="#f8e9d1"/>
+    <text x="422" y="147" fill="#617064" font-family="Arial,sans-serif" font-size="9" font-weight="700" letter-spacing="1.2">WORD CARD</text>
+    <text x="488" y="202" text-anchor="middle" fill="#24382d" font-family="Tahoma,Arial,sans-serif" font-size="45">ب ت ث</text>
+    <path d="M426 217h124" stroke="#d7d6c9" stroke-width="2" stroke-linecap="round"/>
+    <text x="488" y="238" text-anchor="middle" fill="#617064" font-family="Arial,sans-serif" font-size="9" letter-spacing=".9">LOOK · SAY · TRACE</text>
+  </g>
+
+  <g transform="rotate(-4 484 356)" filter="url(#shadow)">
+    <rect x="390" y="294" width="190" height="127" rx="15" fill="#fffdf8"/>
+    <rect x="404" y="308" width="162" height="99" rx="11" fill="#dce9e6"/>
+    <text x="420" y="332" fill="#617064" font-family="Arial,sans-serif" font-size="9" font-weight="700" letter-spacing="1.1">A LITTLE EACH DAY</text>
+    <text x="485" y="377" text-anchor="middle" fill="#65876b" font-family="Georgia,serif" font-size="28">ا ب ت</text>
+    <text x="485" y="396" text-anchor="middle" fill="#617064" font-family="Arial,sans-serif" font-size="9">ARABIC · FRANÇAIS</text>
+  </g>
+</svg>

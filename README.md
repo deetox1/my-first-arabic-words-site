@@ -7,7 +7,7 @@ A responsive international landing page for the existing Arabic–French printab
 - `product.html` — full product listing with real bundle contents and current checkout status.
 - `sample.html` — sample information page.
 - `privacy.html`, `terms.html`, `support.html` — existing policy and support pages.
-- `assets/store-product-image.webp` — existing product artwork.
+- `assets/store-product-image.svg` — the illustrated workbook-and-flashcards preview used on the homepage and product page.
 - `store-config.js` — safe public switch for the verified external checkout URL.
 
 ## Checkout activation
