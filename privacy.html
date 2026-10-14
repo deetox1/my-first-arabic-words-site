@@ -10,6 +10,9 @@
 :root{--ink:#24382d;--muted:#617064;--paper:#f8f6e9;--white:#fffdf4;--green:#315b46;--sage:#9bb39a;--terra:#d98267;--line:#dfe2d0}
 *{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.75 system-ui,-apple-system,"Segoe UI",sans-serif}.wrap{width:min(850px,calc(100% - 36px));margin:auto}header,footer{padding:22px 0;border-bottom:1px solid var(--line)}.brand{font-weight:800;color:var(--ink);text-decoration:none}main{padding:42px 0 72px}h1,h2{font-family:Georgia,serif;line-height:1.18;letter-spacing:-.03em}h1{font-size:clamp(2.2rem,6vw,3.4rem);margin:12px 0}h2{font-size:1.45rem;margin:32px 0 8px}p,li{color:#4f5f52}a{color:#42694d}ul{padding-left:1.3rem}.eyebrow{color:#67866a;text-transform:uppercase;letter-spacing:.13em;font-size:11px;font-weight:800}.updated{font-size:13px;color:var(--muted)}.notice{background:var(--white);border:1px solid var(--line);border-left:5px solid var(--terra);padding:18px 20px;border-radius:12px}.pill{display:inline-block;background:#e7eee1;color:var(--green);padding:4px 10px;border-radius:99px;font-size:12px;font-weight:700}footer{border-top:1px solid var(--line);border-bottom:0;color:var(--muted);font-size:13px}footer a{margin-right:16px}
 </style>
+
+<link rel="icon" type="image/svg+xml" href="assets/my-first-arabic-words-logo.svg">
+<link rel="canonical" href="https://deetox1.github.io/my-first-arabic-words-site/privacy.html">
 </head>
 <body>
 <header><div class="wrap"><a class="brand" href="index.html">✦ My First Arabic Words</a></div></header>
@@ -29,13 +32,12 @@
 <li><strong>Basic account/profile details:</strong> Pinterest user ID, username, account type, and other basic profile fields needed to identify the connected account and show the owner which account is in use.</li>
 <li><strong>Boards:</strong> board IDs, titles, descriptions, privacy/visibility status, and other fields returned by Pinterest, to select the existing “Arabic Learning at Home | Printables” board and confirm where approved content belongs.</li>
 <li><strong>Pins:</strong> Pin IDs, titles/descriptions, destination links, image/media URLs, board association, publication status, and related metadata, to review the business's own promotional content and avoid duplicates.</li>
-<li><strong>Analytics, if separately available and authorized:</strong> performance metrics Pinterest makes available, such as impressions, saves, outbound clicks, or other Pin/board insights, to evaluate which educational-printable promotions are useful.</li>
 <li><strong>Publishing actions, only with write permission:</strong> content and image data supplied for a Pin, plus the selected destination board, if the account owner asks the tool to create or manage a Pin. Read permission alone does not authorize writing.</li>
 </ul>
 <p>The integration is not designed to access Pinterest passwords, private messages, or unrelated personal content. It requests no permission merely because that permission exists; actual access is limited by the scopes shown in Pinterest's authorization/consent flow and by Pinterest's approval and API rules. If a scope is not granted, the related data or action is unavailable.</p>
 
 <h2>3. Why the data is used</h2>
-<p>Data is used only to identify the authorized business account, read the chosen board and relevant Pins, prepare or publish user-approved promotional Pins for the existing printable product, and review available performance metrics. It is not used to build advertising profiles, sell personal data, or market unrelated products. Publishing should occur only after the account owner selects or approves the content and destination.</p>
+<p>Data is used only to identify the owner-authorized Pinterest business account, read the owner’s relevant board and Pin metadata, prepare or publish Pins for the existing printable product, and verify publishing outcomes. The integration is not designed to read general users’ Pinterest content or retrieve analytics for this launch. It is not used to build advertising profiles, sell personal data, or market unrelated products. Publishing should occur only after the account owner selects or approves the content and destination.</p>
 
 <h2>4. How data is handled and stored</h2>
 <p>The website repository itself does not store Pinterest access tokens or Pinterest API responses. No persistent Pinterest-data database or long-term analytics store is configured in this static website. During an authorized integration session, API responses may be processed to complete the requested action and display the result. The external authorization/integration provider and Pinterest may process connection credentials, request metadata, and logs under their own privacy and security policies. We do not publish access tokens, passwords, or private account data in the public repository.</p>
@@ -55,7 +57,7 @@
 <li>You can decline authorization or grant only the scopes you are comfortable with.</li>
 <li>You can revoke the app's access from your Pinterest account's connected-app/security settings. Revocation prevents future API access after Pinterest applies it; it does not automatically erase records retained by Pinterest or the integration provider.</li>
 <li>You may request access to, correction of, or deletion of any personal data the app itself stores. At present, no persistent Pinterest-data store is configured on this website. For provider-held data, use that provider's privacy controls or contact process.</li>
-<li>For privacy questions about this project, see the <a href="support.html">support page</a>. A dedicated private support email or privacy-request form has not yet been published; please do not place sensitive account details in public posts. This contact limitation should be resolved before broad public release of the integration.</li>
+<li>For privacy questions about this project, see the <a href="support.html">support page</a>. No separate privacy-request email or form is published. For questions, use the contact route available on the project’s Ko-fi listing/profile or the support page; do not post sensitive account details publicly.</li>
 </ul>
 
 <h2>9. Children</h2>

@@ -36,3 +36,13 @@ Manual action: sign in at https://developers.pinterest.com/ → My apps → sele
 4. Review real saves/outbound clicks after 2–4 weeks. The milestone is a confirmed purchase, not impressions alone.
 
 No Pin has been published; no sale, payment, payout or withdrawal is claimed. No ads were bought and no metrics were fabricated.
+
+## Independent readiness check — 2026-10-14
+
+- Rechecked the deployed GitHub Pages URLs from a remote HTTP client: homepage, `product.html`, `privacy.html`, `terms.html`, `support.html`, `sample.html`, `store-config.js`, `assets/store-product-image.svg`, `assets/pinterest-app-icon.svg`, and the free-sample release PDF all returned HTTP 200. This confirms URL reachability and that the privacy URL is publicly accessible; it does not replace a visual browser test.
+- The Ko-fi listing `https://ko-fi.com/s/19b1223756` returned HTTP 403 to the independent checker. Its live price, preview gallery, paid attachment, checkout methods, and post-purchase download behavior therefore remain **unverified**. Do not infer payment eligibility or delivery from the listing URL alone.
+- The existing site had no canonical URL metadata or favicon links. Added canonical URLs to the existing static pages, reused the existing brand SVG as the favicon, and added Open Graph URL/image and Twitter card metadata to the homepage and product page. Existing responsive layout and brand artwork were preserved.
+- Corrected stale copy on `sample.html` and `support.html` that said checkout was not active / the store would open later, despite the existing Ko-fi listing being configured. The wording now directs visitors to check the live listing without claiming checkout or automatic delivery is verified.
+- Narrowed the privacy policy to the actual owner-account board/Pin workflow and removed conditional analytics language; the app is not represented as reading general users' content or retrieving analytics.
+- Reconciled the 14-day calendar to the current business board `Arabic Learning at Home | Printables` on `@simad9063` (board ID `1149684679816462776`) and the canonical Ko-fi URL. Added `marketing/pinterest-six-pin-publishing-pack.csv` for the six prepared PNG creatives. Each draft remains unpublished and clearly flags the owner-only storefront check and the API Standard-access blocker.
+- Payment readiness still requires the owner to confirm that their actual Algeria-based payment account can receive international commercial payments and withdraw funds through a provider-permitted method. No payment or withdrawal was tested.
