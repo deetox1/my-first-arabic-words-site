@@ -2,11 +2,11 @@
 
 **Canonical destination:** https://ko-fi.com/s/19b1223756  
 **Product:** Arabic–French printable for ages 3–6 with adult guidance.  
-**Intended price:** US$5.99 one-time; verify the live listing before publishing price-specific creative.  
-**Status:** These are drafts, not published posts. The destination is configured in the website source, but live listing attachments, price, checkout, and post-payment delivery were not independently verified.
+**Current live price:** Not independently verified. Do not include a price in Pins or captions until the live Ko-fi listing is checked.  
+**Status:** These are drafts, not published posts. Manual upload does not require the Pinterest API, but verify the live listing and paid delivery setup before directing traffic. Automated API publishing remains blocked while Trial Access is pending; no Standard access or App Secret is claimed.
 
 ## Pinterest profile and board
-**Suggested board:** Arabic Learning at Home | Printables  
+**Verified board:** Arabic Learning at Home | Printables — @simad9063, board ID `1149684679816462776`  
 **Board description:** Screen-free Arabic learning ideas for families, homeschoolers and educators: beginner Arabic–French printable activities, tracing and coloring pages, and vocabulary flashcards.
 
 ## Keywords
